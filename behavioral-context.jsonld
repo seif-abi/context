@@ -1,0 +1,63 @@
+{
+  "@context": {
+    "mathEquation": {
+      "@id": "https://example.org/ngsi-ld/mathEquation",
+      "@type": "@id"
+    },
+    "name": {
+      "@id": "https://example.org/ngsi-ld/name",
+      "@type": "Property"
+    },
+    "equation": {
+      "@id": "https://example.org/ngsi-ld/equation",
+      "@type": "Property"
+    },
+    "equationType": {
+      "@id": "https://example.org/ngsi-ld/equationType",
+      "@type": "Property"
+    },
+    "parameters": {
+      "@id": "https://example.org/ngsi-ld/parameters",
+      "@type": "@id"
+    },
+    "inputs": {
+      "@id": "https://example.org/ngsi-ld/inputs",
+      "@type": "@id"
+    },
+    "initialValues": {
+      "@id": "https://example.org/ngsi-ld/initialValues",
+      "@type": "Property"
+    },
+    "twinType": {
+      "@id": "https://example.org/ngsi-ld/twinType",
+      "@type": "Property"
+    },
+    "TwinTypeEnum": {
+      "@id": "https://example.org/ngsi-ld/TwinTypeEnum",
+      "@context": {
+        "REAL": "https://example.org/ngsi-ld/twinType/REAL",
+        "VIRTUAL": "https://example.org/ngsi-ld/twinType/VIRTUAL"
+      }
+    },
+    "Parameter": {
+      "@id": "https://example.org/ngsi-ld/Parameter",
+      "@context": {
+        "name": "https://example.org/ngsi-ld/parameterName",
+        "schema": "https://example.org/ngsi-ld/parameterSchema",
+        "value": "https://example.org/ngsi-ld/parameterValue"
+      }
+    },
+    "References": {
+      "@id": "https://example.org/ngsi-ld/References",
+      "@context": {
+        "name": "https://example.org/ngsi-ld/referenceName",
+        "target": {
+          "@id": "https://example.org/ngsi-ld/referenceTarget",
+          "@type": "@id"
+        }
+      }
+    },
+    "Algebraic": "https://example.org/ngsi-ld/Algebraic",
+    "Differential": "https://example.org/ngsi-ld/Differential"
+  }
+}
